@@ -1,0 +1,33 @@
+.sub{
+    font-family:'Outfit',sans-serif;
+    font-weight:400;
+    color:hsl(216, 15%, 48%);
+
+}
+.bold{
+    font-weight:700;
+    font-family:'Outfit',sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+
+*{
+    background-color: #D5E5F0;
+}
+
+.container{
+    border: 1px solid white;
+    padding: 80px;
+    background-color:white;
+    margin: 400px;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: left 100px;
+    margin: right 50px;
+    border-radius: 30px;
+}
+.qrcode{
+    width: 300px;
+    height: auto;
+    
+    
+}
