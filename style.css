@@ -1,33 +1,28 @@
-.sub{
-    font-family:'Outfit',sans-serif;
-    font-weight:400;
-    color:hsl(216, 15%, 48%);
+body{
+    background: #D5E5F0;
 
 }
-.bold{
-    font-weight:700;
-    font-family:'Outfit',sans-serif;
-    color: hsl(218, 44%, 22%);
-}
 
-*{
-    background-color: #D5E5F0;
+.white-block{
+    background: hsl(0, 0%, 100%);
+    margin:auto;
+    padding:16px;
+    box-sizing:border-box;
+    max-width:320px;
+    gap:16px;
+    text-align:center;
+    border-radius:12px;
+ 
 }
-
-.container{
-    border: 1px solid white;
-    padding: 80px;
-    background-color:white;
-    margin: 400px;;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin: left 100px;
-    margin: right 50px;
-    border-radius: 30px;
-}
-.qrcode{
-    width: 300px;
-    height: auto;
-    
-    
-}
+   .container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+   }
+   .qr-image{
+    width:100%;
+    height:auto;
+    border-radius:12px;
+   }
