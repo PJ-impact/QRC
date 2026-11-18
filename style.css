@@ -26,3 +26,15 @@ body{
     height:auto;
     border-radius:12px;
    }
+   .upper-text{
+font-size:18px;
+    font-family:Outfit, sans-serif;
+    color:hsl(218, 44%, 22%);
+    font-weight:bold;
+   }
+    .lower-text{
+     font-weight:400;
+     font-family:Outfit, sans-serif;
+     color:hsl(216, 15%, 48%);
+     font: size 8px;
+    }
